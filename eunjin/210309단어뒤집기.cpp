@@ -10,7 +10,7 @@
 
 // int main()
 // {
-//     int T;
+//     int T;s
 //     cin >> T;
 //     cin.ignore(); // 입력버퍼 비우기
 
