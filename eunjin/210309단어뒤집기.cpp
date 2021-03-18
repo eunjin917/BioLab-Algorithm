@@ -53,25 +53,25 @@ int main()
 
     for (int i = 0; i < T; i++)
     {
-        char line[1001];
+        char line[1001]; // 문장 최대길이 1000이므로 \0 자리 포함 1001
         cin.getline(line, 1001); // 한 줄만 입력받음 (cin.ignore() 필요X)
 
-        for (int j = 0; j <= strlen(line); j++)
+        for (int j = 0; j <= strlen(line); j++) // 문장길이+1만큼 확인하기 (입력 길이가 3이면 \0포함 길이가 4 => 4번 for문돌리기)
         {
-            if (line[j] == ' ' || j == strlen(line))
+            if (line[j] == ' ' || j == strlen(line)) // 공백이거나, 제일 마지막이면
             {
-                for (int k = j - 1; k >= 0; k--)
+                for (int k = j - 1; k >= 0; k--) // 뒤에서부터 하나씩
                 {
-                    if (line[k] == ' ')
+                    if (line[k] == ' ') // 공백 부분이었으면 공백 넣기
                     {
                         cout << ' ';
                         break;
                     }
-                    cout << line[k];
+                    cout << line[k]; // 해당 부분 출력하기
                 }
             }
         }
-         cout << '\n';
+        cout << '\n'; // 테스트케이스 끝나면 엔터
     }
     return 0;
 }
