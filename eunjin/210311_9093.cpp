@@ -2,7 +2,7 @@
 // https://www.acmicpc.net/problem/9093
 // 2021.03.07
 
-
+// 1try : 스택(배열)에 담고 다시 꺼내는 형식이라 비효율적
 
 // #include <iostream>
 // #include <string.h> // strlen 쓸때 필요
@@ -40,6 +40,8 @@
 // }
 
 
+
+// 2try : 배열 사용 X, 바로 거꾸로 출력하기
 
 #include <iostream>
 #include <string.h> // strlen 쓸때 필요
