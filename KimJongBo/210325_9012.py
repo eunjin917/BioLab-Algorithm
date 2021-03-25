@@ -37,3 +37,49 @@ while True:
         print('NO')
     else:
         print('YES')
+
+###########################
+
+#def CNT(string,length):
+#     result = 0
+#     cnt = 0
+#     if (length % 2) == 1:
+#         return False
+#     else:
+#         for i in string:
+#             if i == '(':
+#                 print(i)
+#                 result += 1
+#                 print(result)
+#             else:
+#                 print(i)
+#                 result -= 1
+#                 print(result)
+#             if result < 0:
+#                 return False
+            
+#             if (length-1) == cnt:
+#                 print(length)
+#                 print(i)
+#                 if result == 0:
+#                     return True
+#                 else:
+#                     return False
+#             cnt += 1
+            
+
+# while True:
+#     string = str(input("input ()  : "))
+#     lenstring = len(string)
+#     print(lenstring)
+#     if CNT(string,lenstring) == False:
+#         print('NO')
+#     else:
+#         print('YES')
+    
+
+
+
+  
+
+
