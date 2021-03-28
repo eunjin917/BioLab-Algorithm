@@ -2,13 +2,13 @@
 // https://www.acmicpc.net/problem/9012
 // 2021.03.24
 
-#include <iostream>
-#include <string.h>
-using namespace std;
-
 // VPS = 올바른 괄호 문자열
 // 1) VPS = (VPS)
 // 2) VPS = VPSVPS (접합)
+
+#include <iostream>
+#include <string.h>
+using namespace std;
 
 int main()
 {
