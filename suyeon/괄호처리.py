@@ -1,3 +1,10 @@
+'''
+괄호 문자열 VPS판단
+https://www.acmicpc.net/problem/9012
+2021.03.23
+
+'''
+
 num=int(input())
 
 for i in range(0, num) : #받은 수 만큼 문자열 입력
@@ -39,7 +46,7 @@ for i in range(0, num) : #받은 수 만큼 문자열 입력
             stack1.insert(MAX+1, stack2.pop(0))
             MAX=len(stack1)-1
             
-        stack1.pop() 
+        stack1.pop() #
         MAX=len(stack1)-1
         c_list=len(stack1)
         

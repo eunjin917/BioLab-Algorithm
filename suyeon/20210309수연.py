@@ -1,7 +1,7 @@
 // https://www.acmicpc.net/problem/2292
 
 N=int(input("N값: "))
-count=1; #
+count=1; 
 room=1; #거치는 방의 수
 
 value=int(N/6) 
