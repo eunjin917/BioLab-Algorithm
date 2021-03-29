@@ -8,7 +8,7 @@ int main(void) {
 	int right=0, left=0;
 	char str[100];
 	printf("괄호 문자열을 입력하시오");
-	scanf("%s", &str);	// 문자열 입력받기
+	gets_s(str);	// 문자열 입력받기
 	while (str[j] != '\n') {
 		if (str[j] == '(') {
 			right = 1;
@@ -56,6 +56,3 @@ int startL(const char* s, int m, int n) {
 	}
 	return k;
 }
-
-
-
